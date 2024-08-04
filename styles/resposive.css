@@ -1,0 +1,70 @@
+@media screen and (max-width: 576px) {
+
+    .banner-container,
+    .banner-form {
+        flex-direction: column;
+    }
+
+    .head {
+        height: auto;
+    }
+
+    nav ul {
+        width: 100%;
+        padding: 4px 10px;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .banner-title {
+        padding: 10px;
+        font-size: 1.7rem;
+    }
+
+    .banner-container {
+        margin-top: 80px;
+    }
+
+    .banner-form input {
+        width: 100%;
+    }
+
+    .banner-form {
+        width: 90%;
+        margin: 0 auto;
+        gap: 10px;
+        padding-bottom: 30px;
+    }
+
+    .banner-geertings {
+        font-size: 16px;
+    }
+
+    .banner-description {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .banner-btn {
+        width: 56%;
+        margin: 0 auto;
+    }
+
+    .primary-btn {
+        font-size: 1rem;
+    }
+
+    .content video {
+        width: 73%;
+        transform: translate(-50%, -50%);
+        top: 47%;
+        left: 50%;
+        overflow: hidden;
+    }
+
+    .content img {
+        width: 100%;
+    }
+}
