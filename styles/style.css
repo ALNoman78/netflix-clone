@@ -1,9 +1,10 @@
-:root{
+:root {
     --primary-color: #fff;
-    --large-font-size: 4rem;
+    --large-font-size: 3rem;
     --base-font-size: 2rem;
     --little-font-size: 1rem;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +12,7 @@
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
 }
 
+/* navigatnion bar styles start */
 .head {
     width: 100%;
     margin: 0 auto;
@@ -22,12 +24,17 @@
 }
 
 nav ul {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 10px 50px;
     align-items: center;
+}
+
+.header-image {
+    color: red;
+    border: 2px solid white;
 }
 
 .logo {
@@ -39,10 +46,14 @@ nav ul {
     background: #C11119;
 }
 
+/* navigatnion bar styles end */
+
+/* banner section styles start */
+
 .primary-btn {
     border: 0;
     outline: 0;
-    padding: 8px 14px;
+    padding: 5px 11px;
     background-color: rgb(229, 9, 20);
     font-weight: 600;
     font-size: 20px;
@@ -50,7 +61,7 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .banner-container {
@@ -112,39 +123,60 @@ nav ul {
     padding: 10px 8px;
     height: 60px;
     cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
 }
-.gt-icn{
+
+.gt-icn {
     font-weight: 700;
     margin-left: 8px;
 }
-main{
+
+.hr {
+    width: 100%;
+    height: 0.5rem;
+    background-color: #232323;
+    display: block;
+}
+
+
+/* banner section styles end */
+main {
     background: #000;
 }
 
 /* videography section styles start */
-.video-graphy-container{
+
+.video-graphy-container {
     width: 64%;
     margin: 0 auto;
-    border: 2px solid white;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.content{
+
+.content {
     position: relative;
 }
-.content video{
+
+.content video {
     position: absolute;
-    transform: translate(-50% , -50%);
+    transform: translate(-50%, -50%);
     top: 48%;
     left: 49%;
     overflow: hidden;
 }
+
 .content-text-title {
     color: var(--primary-color);
     font-size: var(--large-font-size);
+    margin: 14px 0;
 }
-.context-description{
+
+.context-description {
     color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 400;
 }
+
 /* videography section styles end */

@@ -1,7 +1,9 @@
 @media screen and (max-width: 576px) {
 
     .banner-container,
-    .banner-form {
+    .banner-form,
+    .video-graphy-container
+    {
         flex-direction: column;
     }
 
@@ -66,5 +68,17 @@
 
     .content img {
         width: 100%;
+    }
+    .video-graphy-container{
+        width: 93%;
+        text-align: center;
+    }
+    .content-text-title{
+        font-size: 2rem;
+    }
+    .context-description{
+        font-size: 1.125rem;
+        width: 82%;
+        margin: 0 auto;
     }
 }
