@@ -252,8 +252,8 @@ main {
 .watch-container{
     width: 54%;
     margin: 0 auto;
-    margin-top: 65px;
-    margin-bottom: 63px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 .watch-title{
     text-align: left;
@@ -294,3 +294,7 @@ main {
     width: 85%;
 }
 /* kids section styles end */
+
+.none{
+    display: none;
+}

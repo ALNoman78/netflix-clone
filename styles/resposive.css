@@ -2,7 +2,9 @@
 
     .banner-container,
     .banner-form,
-    .video-graphy-container
+    .video-graphy-container,
+    .download-container,
+    .kids-container
     {
         flex-direction: column;
     }
@@ -33,7 +35,10 @@
         width: 100%;
     }
 
-    .banner-form {
+    .banner-form,
+    .download-container,
+    .kids-container
+    {
         width: 90%;
         margin: 0 auto;
         gap: 10px;
@@ -73,12 +78,60 @@
         width: 93%;
         text-align: center;
     }
-    .content-text-title{
+    .content-text-title,
+    .content-text-download h3,
+    .watch-title,
+    .kids-content-title
+    {
         font-size: 2rem;
+        text-align: center;
     }
     .context-description{
         font-size: 1.125rem;
         width: 82%;
         margin: 0 auto;
+    }
+    .content-image > img {
+        width: 94%;
+    }
+    #none{
+        display: none;
+    }
+    .none{
+        display: block;
+    }
+    .download-sub-container{
+        width: 100%;
+        margin-left: 0;
+        transform: translate(0% , -74%);
+    }
+    .download-sub-container img{
+        width: 65px;
+    }
+    .content-text-download p{
+        line-height: normal;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .content-text-download h3{
+        margin-top: 40px;
+    }
+    .watch-container{
+        margin: 0;
+    }
+    .watch-container{
+        width: 100%;
+        text-align: center;
+        margin: 38px 0;
+    }
+    .kids-content img{
+        width: 100%;
+    }
+    .kids-content-description{
+        font-size: 1.125rem;
+        text-align: center;
+    }
+    .watch-description{
+        font-size: 1.125rem;
     }
 }
