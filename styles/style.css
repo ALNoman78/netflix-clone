@@ -184,9 +184,8 @@ main {
 /* download-container styles start */
 
 .download-container{
-    width: 68%;
+    width: 62%;
     margin: 0 auto;
-    border: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -198,12 +197,12 @@ main {
     padding: 11px;
 }
 .download-sub-container{
-    width: 54%;
+    width: 64%;
     background: black;
     transform: translate(3% , -150%);
     display: flex;
     align-items: center;
-    margin-left: 130px;
+    margin-left: 71px;
     border: 2px solid #232323;
     border-radius: 0.75rem;
     gap: 20px;
@@ -244,4 +243,52 @@ main {
     line-height: 50px;
 }
 
+.content-image > img{
+    width: 100%;
+}
 /* download text styles end */
+
+/* watch container section styles start */
+.watch-container{
+    width: 54%;
+    margin: 0 auto;
+    margin-top: 65px;
+    margin-bottom: 63px;
+}
+.watch-title{
+    text-align: left;
+    font-size: var(--large-font-size);
+    color: var(--primary-color);
+    font-weight: 900;
+}
+.watch-description{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 20px;
+}
+/* watch container section styles end */
+
+/* kids section styles start */
+
+.kids-container{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kids-content-title{
+    font-size: var(--large-font-size);
+    color: var(--primary-color);
+}
+.kids-content-description{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-weight: 400;
+    margin-top: 20px;
+    width: 85%;
+}
+/* kids section styles end */
