@@ -174,4 +174,10 @@
         align-items: normal;
         gap: 20px;
     }
+    .footer-main-content p{
+        margin-bottom: 0;
+    }
+    .footer-last-section{
+        width: 90%;
+    }
 }
