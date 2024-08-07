@@ -317,7 +317,7 @@ main {
     margin: 10px;
     cursor: pointer;
     width: calc( 100% - 17px);
-    background: #414141;
+    background: #2D2D2D;
 }
 
 .hidden-text {
@@ -330,5 +330,23 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.services-content{
+    margin-top: 25px;
+}
+.services-section-form > .banner-form{
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.services-section-form p{
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    margin-top: 20px;
+}
+.services-section-form{
+    text-align: center;
+    margin-top: 25px;
+    display: block;
 }
 /* services section styles end */

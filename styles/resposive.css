@@ -37,7 +37,8 @@
 
     .banner-form,
     .download-container,
-    .kids-container
+    .kids-container,
+    .services-container
     {
         width: 90%;
         margin: 0 auto;
@@ -81,7 +82,8 @@
     .content-text-title,
     .content-text-download h3,
     .watch-title,
-    .kids-content-title
+    .kids-content-title,
+    .services-content h3
     {
         font-size: 2rem;
         text-align: center;
@@ -113,7 +115,9 @@
         text-align: center;
         margin-top: 10px;
     }
-    .content-text-download h3{
+    .content-text-download h3,
+    .services-content h3
+    {
         margin-top: 40px;
     }
     .watch-container{
@@ -133,5 +137,8 @@
     }
     .watch-description{
         font-size: 1.125rem;
+    }
+    .box{
+        font-size: 1rem;
     }
 }
