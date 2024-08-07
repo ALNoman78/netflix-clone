@@ -183,23 +183,25 @@ main {
 
 /* download-container styles start */
 
-.download-container{
+.download-container {
     width: 62%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.download-sub-container img{
+
+.download-sub-container img {
     width: 80px;
     height: auto;
     position: absolute;
     padding: 11px;
 }
-.download-sub-container{
+
+.download-sub-container {
     width: 64%;
     background: black;
-    transform: translate(3% , -150%);
+    transform: translate(3%, -150%);
     display: flex;
     align-items: center;
     margin-left: 71px;
@@ -208,71 +210,79 @@ main {
     gap: 20px;
 }
 
-.content-image img{
+.content-image img {
     position: relative;
 }
+
 /* .desc-download-2{
     color: blue;
 } */
- .desc-down p{
+.desc-down p {
     line-height: 28px;
     color: #fff;
     font-weight: 600;
- }
- #desc-download-2{
-    color: rgba(11, 11, 239, 0.933);
- }
+}
 
- .download-sub-txt{
+#desc-download-2 {
+    color: rgba(11, 11, 239, 0.933);
+}
+
+.download-sub-txt {
     display: flex;
     justify-content: space-between;
     align-items: center;
- }
+}
+
 /* download-container styles end */
 
 /* download text styles start */
 
-.content-text-download h3{
+.content-text-download h3 {
     font-size: var(--large-font-size);
     color: var(--primary-color);
     font-weight: 900;
 }
-.content-text-download p{
+
+.content-text-download p {
     color: var(--primary-color);
     /* font-size: 1.5rem; */
     line-height: 50px;
 }
 
-.content-image > img{
+.content-image>img {
     width: 100%;
 }
+
 /* download text styles end */
 
 /* watch container section styles start */
-.watch-container{
+.watch-container {
     width: 54%;
     margin: 0 auto;
     margin-top: 70px;
     margin-bottom: 70px;
 }
-.watch-title{
+
+.watch-title {
     text-align: left;
     font-size: var(--large-font-size);
     color: var(--primary-color);
     font-weight: 900;
 }
-.watch-description{
+
+.watch-description {
     color: var(--primary-color);
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 30px;
     margin-top: 20px;
 }
+
 /* watch container section styles end */
 
 /* kids section styles start */
 
-.kids-container{
+.kids-container {
     width: 65%;
     margin: 0 auto;
     display: flex;
@@ -282,41 +292,45 @@ main {
     margin-bottom: 40px;
 }
 
-.kids-content-title{
+.kids-content-title {
     font-size: var(--large-font-size);
     color: var(--primary-color);
 }
-.kids-content-description{
+
+.kids-content-description {
     font-size: 1.5rem;
     color: var(--primary-color);
     font-weight: 400;
     margin-top: 20px;
     width: 85%;
 }
+
 /* kids section styles end */
 
-.none{
+.none {
     display: none;
 }
 
 /* services section styles start */
 
-.services-container{
+.services-container {
     width: 70%;
     margin: 0 auto;
 }
-.services-content h3{
+
+.services-content h3 {
     font-size: var(--large-font-size);
     text-align: center;
     color: var(--primary-color);
 }
+
 .box {
     color: var(--primary-color);
     font-size: 1.4rem;
     padding: 1.5rem;
     margin: 10px;
     cursor: pointer;
-    width: calc( 100% - 17px);
+    width: calc(100% - 17px);
     background: #2D2D2D;
 }
 
@@ -326,55 +340,66 @@ main {
     color: var(--primary-color);
     font-size: 1.4rem;
 }
-.services-sub-content{
+
+.services-sub-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.services-content{
+
+.services-content {
     margin-top: 25px;
 }
-.services-section-form > .banner-form{
+
+.services-section-form>.banner-form {
     margin: 0 auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-.services-section-form p{
+
+.services-section-form p {
     font-size: 1.25rem;
     color: var(--primary-color);
     margin-top: 20px;
 }
-.services-section-form{
+
+.services-section-form {
     text-align: center;
     margin-top: 25px;
     display: block;
 }
+
 /* services section styles end */
 
 /* footer section styles start */
-footer{
+footer {
     width: 100%;
     background: #000;
+    height: 50vh;
 }
 
-.footer-container{
+.footer-container {
     width: 70%;
     margin: 0 auto;
-    border: 2px solid white;
     color: white;
     display: flex;
     justify-content: space-between;
+    padding: 100px;
 }
+
 .footer-main-content,
-.footer-second-content
-{
+.footer-second-content {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 200px;
 }
-.footer-main-content ul,
-.footer-second-content ul{
+
+.footer-main-content ul li,
+.footer-second-content ul li{
     list-style: none;
+    padding: 8px;
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
 }
 /* footer section styles end */

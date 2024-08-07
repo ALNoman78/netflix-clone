@@ -4,8 +4,10 @@
     .banner-form,
     .video-graphy-container,
     .download-container,
-    .kids-container
-    {
+    .kids-container,
+    .footer-main-content,
+    .footer-second-content
+     {
         flex-direction: column;
     }
 
@@ -38,7 +40,8 @@
     .banner-form,
     .download-container,
     .kids-container,
-    .services-container
+    .services-container,
+    .footer-container
     {
         width: 90%;
         margin: 0 auto;
@@ -75,70 +78,100 @@
     .content img {
         width: 100%;
     }
-    .video-graphy-container{
+
+    .video-graphy-container {
         width: 93%;
         text-align: center;
     }
+
     .content-text-title,
     .content-text-download h3,
     .watch-title,
     .kids-content-title,
-    .services-content h3
-    {
+    .services-content h3 {
         font-size: 2rem;
         text-align: center;
     }
-    .context-description{
+
+    .context-description {
         font-size: 1.125rem;
         width: 82%;
         margin: 0 auto;
     }
-    .content-image > img {
+
+    .content-image>img {
         width: 94%;
     }
-    #none{
+
+    #none {
         display: none;
     }
-    .none{
+
+    .none {
         display: block;
     }
-    .download-sub-container{
+
+    .download-sub-container {
         width: 100%;
         margin-left: 0;
-        transform: translate(0% , -74%);
+        transform: translate(0%, -74%);
     }
-    .download-sub-container img{
+
+    .download-sub-container img {
         width: 65px;
     }
-    .content-text-download p{
+
+    .content-text-download p {
         line-height: normal;
         text-align: center;
         margin-top: 10px;
     }
+
     .content-text-download h3,
-    .services-content h3
-    {
+    .services-content h3 {
         margin-top: 40px;
     }
-    .watch-container{
+
+    .watch-container {
         margin: 0;
     }
-    .watch-container{
+
+    .watch-container {
         width: 100%;
         text-align: center;
         margin: 38px 0;
     }
-    .kids-content img{
+
+    .kids-content img {
         width: 100%;
     }
-    .kids-content-description{
+
+    .kids-content-description {
         font-size: 1.125rem;
         text-align: center;
     }
-    .watch-description{
+
+    .watch-description {
         font-size: 1.125rem;
     }
-    .box{
+
+    .box {
         font-size: 1rem;
+    }
+    footer{
+        height: auto;
+    }
+    .footer-container{
+        padding: 0;
+    }
+    .footer-main-content ul li,
+    .footer-second-content ul li{
+        font-size: 14px;
+    }
+    .footer-main-content,
+    .footer-second-content
+    {
+        align-items: normal;
+        gap: 20px;
     }
 }
