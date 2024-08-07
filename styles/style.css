@@ -350,3 +350,31 @@ main {
     display: block;
 }
 /* services section styles end */
+
+/* footer section styles start */
+footer{
+    width: 100%;
+    background: #000;
+}
+
+.footer-container{
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-main-content,
+.footer-second-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.footer-main-content ul,
+.footer-second-content ul{
+    list-style: none;
+}
+/* footer section styles end */
